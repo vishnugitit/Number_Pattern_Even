@@ -1,0 +1,12 @@
+<script>
+  rows = +prompt("Rows: ");
+  for (i = 1; i <= rows; i++) {
+    (res = ""), (value = 1);
+    for (j = 1; j <= i; j++) {
+      res = res + value + " ";
+      value++;
+    }
+    // console.log(res)                             -->
+    console.log(res.split("").reverse().join("")); // |
+  }
+</script>
